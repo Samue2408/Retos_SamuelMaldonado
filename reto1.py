@@ -4,7 +4,7 @@ tarifa = 0
 horas = -1
 minutos = -1
 # Solicitar día de la semana
-dia = input('Ingrese el día de la semana (primera letra en mayúscula): ')
+dia = input('Ingrese el día de la semana: ').title()
 
 if dia == 'Lunes' or dia == 'Martes' or dia == 'Miercoles':
     tarifa = 2.00
